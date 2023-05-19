@@ -1,0 +1,120 @@
+
+* body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#check-menu{
+    display: none;
+}
+label {
+  display: none;
+}
+
+
+h1 {
+  padding-top: 60px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+}
+
+
+.card-box {
+  min-width: 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.card-item {
+  border: solid 2px rgb(255, 183, 183);
+  width: 350px;
+  margin: 20px;
+  
+}
+
+.minMob {
+  width: 350px;
+}
+
+.p-card-box {
+  text-align: center;
+  font-size: 18px;
+
+}
+
+.myBtn {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 7px;
+  border-radius: 15px;
+  color: white;
+  background: rgb(194, 199, 64);
+}
+
+
+input[type="radio"] {
+  /* remove standard background appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* create custom radiobutton appearance */
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding: 6px;
+  /* background-color only for content */
+  background-clip: content-box;
+  border: 2px solid #bbbbbb;
+  background-color: #e7e6e7;
+  border-radius: 50%;
+}
+
+/* appearance for checked radiobutton */
+input[type="radio"]:checked {
+  background-color: #93e026;
+}
+
+/* optional styles, I'm using this for centering radiobuttons */
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.foot {
+  
+  cursor:pointer;
+  text-decoration: none;
+  color: black;
+}
+
+/* Адаптация под мобильные устройства */
+/* 1200 - большие мониторы, 768 - маленькие мониторы, 480 - планшет, 320 / 98 - телефон */
+/*
+  320 px — Мобильные устройства (портретная ориентация);
+  480 px — Мобильные устройства (альбомная ориентация);
+  600 px — Небольшие планшеты;
+  768 px — Планшеты (портретная ориентация);
+  1024 px — Планшеты (альбомная ориентация)/Нетбуки;
+  1280 px и более — PC.
+
+  240×320
+  320×240
+  320×480
+  480×360
+  360×640
+  480×800
+  768×1024
+  640×960
+  1280×800
+  2048×1536
+
+*/
+
+/* Мобильные устройства */
+@media only screen and (max-width : 992px)  {
+
+}

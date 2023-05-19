@@ -1,0 +1,21 @@
+body {
+    color: #222;
+    background: #fff;
+}
+
+  
+/* Стили Тёмной темы */
+body.dark-theme {
+    color: #eee;
+}
+body.dark-theme a {
+    color: #809fff;
+}
+
+body.dark-theme #a {
+    color: #fff;
+}
+
+body.dark-theme .card-item {
+  background-color: #809fff;
+}
