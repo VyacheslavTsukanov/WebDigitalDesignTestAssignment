@@ -46,5 +46,7 @@ const btnUp = {
  let inp = document.getElementById("date");
  inp.oninput = () => {
      document.getElementById("result").textContent =
-         new Date(inp.value).toLocaleDateString(undefined, { weekday: "long" });
+         new Date(inp.value).toLocaleDateString(undefined, { 
+          weekday: "long" 
+        });
  };

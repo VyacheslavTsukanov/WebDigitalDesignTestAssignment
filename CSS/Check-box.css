@@ -2,20 +2,37 @@ body {
     color: #222;
     background: #fff;
 }
-
   
 /* Стили Тёмной темы */
 body.dark-theme {
     color: #eee;
-}
-body.dark-theme a {
-    color: #809fff;
+    background-color: #744343;
 }
 
-body.dark-theme #a {
+body.dark-theme #a{
+    color: #fff;
+    background-color: #505131;
+}
+body.dark-theme #b{
+    color: #fff;
+    background-color: #515233;
+}
+
+body.dark-theme #c{
+    color: #fff;
+    background-color: #245b37;
+}
+
+body.dark-theme #d{
+    color: #fff;
+    background-color: #243d3d;
+}
+
+
+body.dark-theme h1 {
     color: #fff;
 }
 
 body.dark-theme .card-item {
-  background-color: #809fff;
+  background-color: hsl(89, 22%, 45%);
 }
